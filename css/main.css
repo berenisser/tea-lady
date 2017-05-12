@@ -1,1 +1,10 @@
 /* Escribe acá tus estilos*/
+
+body {
+	background-color: lightpink;
+}
+
+form{
+	background-color: white;
+	padding: 10px;
+}
