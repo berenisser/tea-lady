@@ -5,23 +5,83 @@
 }
 
 body {
-	background-color: lightpink;
+	background-color: #c8c8c8;
 	margin: 0;
 }
 
+
 header h1 {
-	font-size: 40px;
-	background-color: whitesmoke;
-	padding: 30px;
+	font-size: 60px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: rgba(40,57,101,.6);
+	padding: 40px;
 	margin: 0; 
 }
 
 #formulario{
-	background-color: rgba(255, 255, 255, 0.5);
-	width: 80%;
-	margin: 0 auto;
+	background:rgba(40,57,101,.6);
+	width: 50%;
+	margin: auto;
 	padding: 20px;
 	margin-top: 30px;
+	margin-bottom: 60px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 
-.formulario p
+
+#formulario p{
+	color: whitesmoke;
+}
+
+.formulario-te label{
+	color: whitesmoke;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	margin: 8px 0;
+}
+
+.formulario-te select, 
+.formulario-te input,
+.formulario-te button{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(255,255,255, 0.2);
+	border: 1px solid rgba(245,245,245, 0.5);
+	box-sizing: border-box;
+	color: whitesmoke;
+}
+
+
+
+
+.formulario-te select option{
+	color: #646464;
+	padding: 10px;	
+}
+
+.formulario-te input[type='checkbox']{
+	margin-top: 13px;
+	margin-right: 10px;
+	background-color: rgba(255,255,255, 0.2);
+	width: auto;
+	float: left;
+}
+
+
+.formulario-te button{
+	background-color: rgba(255,255,255, 0.2);
+	border: 1px solid rgba(245,245,245, 0.5);
+	border: none;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+#clientes {
+	text-align: center;
+	padding-bottom: 70px;
+}
